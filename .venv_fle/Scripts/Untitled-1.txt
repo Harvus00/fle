@@ -1,0 +1,4 @@
+Start-Process -Wait -FilePath "C:\FacServer\bin\x64\factorio.exe" `
+    -ArgumentList "--start-server", "C:\FactorioAutomation\FLE_O1.zip", `
+                  "--rcon-port", "25575", `
+                  "--rcon-password", "Ank3lz100"
